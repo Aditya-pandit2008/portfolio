@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects · Aditya Pandit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="adi.html" class="brand">portfol.io</a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+            <nav id="primary-navigation" class="main-nav" aria-label="Primary navigation">
+                <a href="adi.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="contact-sm">
+                <span>+91 91302 13760</span>
+                <a href="mailto:aditya6386g@gmail.com">aditya6386g@gmail.com</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-card">
+                <div class="projects-header">
+                    <div>
+                        <p class="eyebrow">Featured work</p>
+                        <h2>Projects that highlight my tech and design skills</h2>
+                        <p>Explore responsive apps, AI interfaces, and polished web experiences built with a focus on usability, authentication, and backend integration.</p>
+                    </div>
+                    <div class="project-cta">
+                        <a href="contact.html" class="button button-secondary">Discuss a project</a>
+                    </div>
+                </div>
+
+                <div class="project-grid">
+                    <div class="project-filters">
+                        <button class="active" data-tag="all">All</button>
+                        <button data-tag="chat">Chat</button>
+                        <button data-tag="ai">AI</button>
+                        <button data-tag="flask">Flask</button>
+                        <button data-tag="blog">Blog</button>
+                        <button data-tag="portfolio">Portfolio</button>
+                    </div>
+
+                    <article class="project-card" data-tags="chat ai" data-image="images/adu.jpg" data-link="project-lumo.html">
+                        <h3> Lumo – AI Chat Application</h3>
+                        <p>
+                            Lumo is an AI chat platform with multiple personalities and modern conversation UI.
+                            I improved responsiveness, built the frontend, and added secure Login/Signup and
+                            Google OAuth authentication flows.
+                        </p>
+                        <div class="project-meta">
+                            <span>Chat UX</span>
+                            <span>OAuth auth</span>
+                            <span>AI-driven experience</span>
+                        </div>
+                        <div class="project-tech">HTML5 · CSS3 · JavaScript · SQLite · Authentication APIs</div>
+                    </article>
+
+                    <article class="project-card" data-tags="ai flask" data-image="images/adu.jpg" data-link="project-ai-counselor.html">
+                        <h3>AI Career Counselor</h3>
+                        <p>
+                            AI Career Counselor provides personalized career guidance through AI-powered
+                            recommendations. I handled frontend/backend integration, API workflows, and
+                            responsive interface design.
+                        </p>
+                        <div class="project-meta">
+                            <span>AI integration</span>
+                            <span>Flask backend</span>
+                            <span>User interaction</span>
+                        </div>
+                        <div class="project-tech">Python · Flask · HTML5 · CSS3 · JavaScript · AI APIs</div>
+                    </article>
+
+                    <article class="project-card" data-tags="blog" data-image="images/adu.jpg" data-link="project-blog.html">
+                        <h3> Tech Blog Website</h3>
+                        <p>
+                            A clean blogging platform for technology content. I created responsive sections,
+                            category-based layouts, and a modern reading experience.
+                        </p>
+                        <div class="project-meta">
+                            <span>Responsive blog</span>
+                            <span>Content strategy</span>
+                            <span>Modern UI</span>
+                        </div>
+                        <div class="project-tech">HTML5 · CSS3 · JavaScript</div>
+                    </article>
+
+                    <article class="project-card" data-tags="portfolio" data-image="images/adu.jpg" data-link="project-portfolio.html">
+                        <h3> Personal Portfolio Website</h3>
+                        <p>
+                            A professional portfolio built to present skills, projects, and background in
+                            a polished and responsive format. I focused on layout, navigation, and branding.
+                        </p>
+                        <div class="project-meta">
+                            <span>Portfolio design</span>
+                            <span>Responsive UI</span>
+                            <span>User-focused</span>
+                        </div>
+                        <div class="project-tech">HTML5 · CSS3 · JavaScript</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Interested in collaborating? <a href="contact.html">Get in touch</a>.</p>
+    </footer>
+        <!-- Project modal -->
+        <div class="project-modal" role="dialog" aria-hidden="true">
+            <div class="modal" role="document">
+                <button class="modal-close" aria-label="Close">×</button>
+                <h3 class="modal-title"></h3>
+                <div class="modal-media">
+                    <img src="" alt="Project image" style="display:none;" />
+                    <div class="modal-content">
+                        <div class="modal-body"></div>
+                        <div class="modal-actions"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

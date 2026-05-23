@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact · Aditya Pandit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="adi.html" class="brand">portfol.io</a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+            <nav id="primary-navigation" class="main-nav" aria-label="Primary navigation">
+                <a href="adi.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="contact-sm">
+                <span>+91 91302 13760</span>
+                <a href="mailto:aditya6386g@gmail.com">aditya6386g@gmail.com</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-card contact-card-layout">
+                <div class="contact-grid">
+                    <div class="contact-panel">
+                        <p class="eyebrow">Let’s connect</p>
+                        <h2>Contact</h2>
+                        <p>If you'd like to work together or have any questions, reach out via email, phone,
+                           or send a quick message below. I’m always open to projects, internships, and
+                           collaboration.</p>
+
+                        <div class="contact-info-list">
+                            <div class="contact-info">
+                                <span class="info-symbol">&#x2709</span>
+                                <div>
+                                    <p class="info-label">Email</p>
+                                    <a href="mailto:aditya6386g@gmail.com">aditya6386g@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <span class="info-symbol">&#128222;</span>
+                                <div>
+                                    <p class="info-label">Phone</p>
+                                    <span>+91 91302 13760</span>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <span class="info-symbol">&#128204;</span>
+                                <div>
+                                    <p class="info-label">Location</p>
+                                    <span>India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-panel form-panel">
+                        <h3>Send a message</h3>
+                        <form id="contact-form" action="#" method="post" data-api="/api/contact" data-mailto="mailto:aditya6386g@gmail.com">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input id="name" name="name" type="text" class="form-input" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" class="form-input" placeholder="Your email address">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" class="form-textarea" placeholder="Write your message"></textarea>
+                            </div>
+                            <div class="form-actions">
+                                <button class="button button-primary" type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Thanks for visiting — I'll reply as soon as possible.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
